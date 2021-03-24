@@ -10,7 +10,7 @@ def get_text_messages(message):
     if message.text.lower() == 'привет':
         bot.send_message(message.from_user.id, 'Привет!')
     else:
-        if message.text.lower() == 'Как дела?':
+       if message.text.lower() == 'как дела?':
             bot.send_message(message.from_user.id, 'Отлично!')
         else:
             bot.send_message(message.from_user.id, 'Не понимаю, что это значит.')
